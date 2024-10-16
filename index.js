@@ -4,7 +4,7 @@ const PORT = process.env.PORT || 3000;
 
 // Create a route to respond with 'Hello, World!'
 app.get('/', (req, res) => {
-  res.send('Hello, World!');
+  res.send('Hello World!');
 });
 
 // Start the server and listen on the specified port
